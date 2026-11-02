@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="meta.title">Irvan Yoga Pratama | AI and Data Annotation</title>
+    <meta
+      name="description"
+      data-i18n-meta="meta.description"
+      content="Portfolio of Irvan Yoga Pratama, a Computer Engineering graduate from Universitas Amikom Yogyakarta focused on applied machine learning, data annotation, and AI model evaluation."
+    >
+    <meta name="theme-color" content="#FAF7F3">
+    <meta property="og:type" content="website">
+    <meta property="og:title" data-i18n-meta="meta.title" content="Irvan Yoga Pratama | AI and Data Annotation">
+    <meta
+      property="og:description"
+      data-i18n-meta="meta.description"
+      content="Portfolio of Irvan Yoga Pratama, a Computer Engineering graduate from Universitas Amikom Yogyakarta focused on applied machine learning, data annotation, and AI model evaluation."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script>document.documentElement.classList.add("js");</script>
+    <script src="strings.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+    <header class="nav">
+      <div class="nav-pill">
+        <a class="nav-brand" href="#hero">Irvan</a>
+        <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language to Indonesian">
+          <span class="lang-opt is-active" data-lang-option="en" data-i18n="lang.optionEn" lang="en">EN</span>
+          <span class="lang-slash" aria-hidden="true">/</span>
+          <span class="lang-opt" data-lang-option="id" data-i18n="lang.optionId" lang="id">ID</span>
+        </button>
+        <button class="nav-dots" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="menu" id="menu" aria-hidden="true">
+      <button class="menu-close" type="button" aria-label="Close" data-i18n="menu.close" data-i18n-aria="menu.close">Close</button>
+      <nav class="menu-nav" aria-label="Main">
+        <a href="#hero" data-i18n="nav.home">Home</a>
+        <a href="#bio" data-i18n="nav.about">About</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#work" data-i18n="nav.work">Work</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#credentials" data-i18n="nav.certificates">Certificates</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+    </div>
+
+    <main id="main">
+      <div class="stage">
+      <section class="hero" id="hero">
+        <div class="container hero-inner">
+          <img class="star star-left" src="assets/img/star-left.png" alt="" width="140" height="140" aria-hidden="true">
+          <h1 class="hero-title">
+            <span data-i18n="hero.nameA">Irvan Yoga</span><br>
+            <span data-i18n="hero.nameB">Pratama</span>
+          </h1>
+          <img class="star star-right" src="assets/img/star-right.png" alt="" width="198" height="198" aria-hidden="true">
+
+          <div class="hero-bottom">
+            <span class="hero-year" data-i18n="hero.year">©2026</span>
+            <figure class="hero-portrait hero-portrait--mobile">
+              <picture>
+                <source media="(min-width: 769px)" srcset="assets/img/irvan-gray.jpg">
+                <img src="assets/img/irvan.jpg" alt="Portrait of Irvan Yoga Pratama" width="202" height="231">
+              </picture>
+            </figure>
+            <span class="hero-since" data-i18n="hero.location">Tuban, ID</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bio" id="bio">
+        <div class="container bio-grid">
+          <div class="bio-left">
+            <h2 class="bio-hey" data-i18n="bio.hi">Hi.</h2>
+            <p class="bio-lead" data-i18n="bio.lead">
+              I’m Irvan, a Computer Engineering graduate from Universitas Amikom Yogyakarta. I
+              focus on applied machine learning, data annotation, and AI model evaluation.
+            </p>
+          </div>
+          <div class="bio-right">
+            <p data-i18n="bio.p1">
+              My work starts with data: labeling it, checking it, and turning it into something a
+              model can learn from. I use Python and SQL, and I care about accuracy, consistency,
+              and whether the result holds up.
+            </p>
+            <p data-i18n="bio.p2">
+              I also understand backend systems and API integration, which matters when a model has
+              to move from a notebook into a running product. I work systematically and pay
+              attention to the details that keep a system reliable.
+            </p>
+            <a class="arrow-link" href="#contact">
+              <span data-i18n="bio.cta">Get in touch</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <figure class="avatar" aria-hidden="true">
+        <img class="avatar-color" src="assets/img/irvan.jpg" alt="">
+        <img class="avatar-gray" src="assets/img/irvan-gray.jpg" alt="">
+      </figure>
+      </div>
+
+      <section class="quote" id="quote">
+        <div class="quote-sticky">
+          <div class="container quote-inner">
+            <p class="quote-text" data-quote data-i18n="quote.text">
+              A model is only as useful as the data behind it. I annotate, process, and evaluate
+              with that in mind, so the result still holds up outside the notebook.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="skills">
+        <div class="container">
+          <h2 class="section-title reveal" data-i18n="skills.title">Skills</h2>
+          <div class="service-list">
+            <div class="service-row reveal">
+              <h3 data-i18n="skills.1.title">Machine learning</h3>
+              <p data-i18n="skills.1.tags">Machine Learning · Generative AI · RAG · AI</p>
+            </div>
+            <div class="service-row reveal">
+              <h3 data-i18n="skills.2.title">Data</h3>
+              <p data-i18n="skills.2.tags">Data Annotation · Data Labeling · Data Categorization · Data Processing</p>
+            </div>
+            <div class="service-row reveal">
+              <h3 data-i18n="skills.3.title">Engineering</h3>
+              <p data-i18n="skills.3.tags">Python · SQL · PostgreSQL · Linux</p>
+            </div>
+            <div class="service-row reveal">
+              <h3 data-i18n="skills.4.title">Evaluation and integration</h3>
+              <p data-i18n="skills.4.tags">AI Model Evaluation · API Integration</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work">
+        <div class="container">
+          <h2 class="section-title reveal" data-i18n="work.title">Selected work</h2>
+
+          <article class="project reveal">
+            <div class="project-visual" aria-hidden="true">
+              <span class="pv-index" data-i18n="work.visualIndex">01 / Thesis</span>
+              <span class="pv-word" data-i18n="work.visualA">GMM-HMM</span>
+              <span class="pv-rule"></span>
+              <span class="pv-word pv-word--muted" data-i18n="work.visualB">Nested Walk-Forward</span>
+            </div>
+
+            <div class="project-body">
+              <div>
+                <h3 class="project-title" data-i18n="work.projectTitle">
+                  Automated Overfitting Detection for Trading Strategies
+                </h3>
+                <p class="project-status" data-i18n="work.status">Academic thesis, 2026</p>
+              </div>
+
+              <dl class="project-rows">
+                <div class="row">
+                  <dt data-i18n="work.problemLabel">Problem</dt>
+                  <dd data-i18n="work.problem">
+                    Manual overfitting checks miss strategies that only look good in backtests, and
+                    a strategy that passes review can still lose capital.
+                  </dd>
+                </div>
+                <div class="row">
+                  <dt data-i18n="work.approachLabel">Approach</dt>
+                  <dd data-i18n="work.approach">
+                    A hybrid GMM-HMM model reads market regimes, paired with Nested Walk-Forward
+                    Analysis to test the strategy across time.
+                  </dd>
+                </div>
+                <div class="row">
+                  <dt data-i18n="work.resultLabel">Result</dt>
+                  <dd data-i18n="work.result">
+                    A diagnostic framework that identifies overfitting more accurately and
+                    systematically, so strategy evaluation is more reliable before deployment.
+                  </dd>
+                </div>
+                <div class="row">
+                  <dt data-i18n="work.stackLabel">Stack</dt>
+                  <dd data-i18n="work.stack">Python, GMM, HMM, statistical analysis, time-series data</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience" id="experience">
+        <div class="container">
+          <h2 class="section-title reveal" data-i18n="exp.title">Experience and education</h2>
+
+          <div class="exp-list">
+            <div class="exp-row reveal">
+              <div class="exp-meta">
+                <p class="mono" data-i18n="exp.jobDates">Apr 2021 – Oct 2021</p>
+                <p class="muted" data-i18n="exp.jobLocation">Tuban, East Java</p>
+              </div>
+              <div class="exp-body">
+                <h3 class="exp-role">
+                  <span data-i18n="exp.jobRole">IT Support</span>
+                  <span class="muted" data-i18n="exp.jobCompany">27 Komputer</span>
+                </h3>
+                <ul class="exp-bullets">
+                  <li data-i18n="exp.b1">Installed, configured, and maintained computer hardware and software.</li>
+                  <li data-i18n="exp.b2">Troubleshot computer, operating system, and network issues.</li>
+                  <li data-i18n="exp.b3">Kept IT equipment running and documented technical issues and repairs.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="exp-row reveal">
+              <div class="exp-meta">
+                <p class="mono" data-i18n="exp.eduDates">2022 – 2026</p>
+                <p class="muted" data-i18n="exp.eduLocation">Sleman, Yogyakarta</p>
+              </div>
+              <div class="exp-body">
+                <h3 class="exp-role">
+                  <span data-i18n="exp.eduDegree">S1 Computer Engineering</span>
+                  <span class="muted" data-i18n="exp.eduSchool">Universitas Amikom Yogyakarta</span>
+                </h3>
+                <p class="exp-note" data-i18n="exp.eduGpa">GPA 3.74 / 4.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="credentials" id="credentials">
+        <div class="container">
+          <h2 class="section-title reveal" data-i18n="cred.title">Certifications and training</h2>
+
+          <div class="cert-grid">
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/amicta-2022.webp" alt="Multitrack Talkshow AMICTA 2022 certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeSeminar">Seminar</span>
+                <span class="cert-name" data-i18n="cred.1.name">Multitrack Talkshow AMICTA 2022</span>
+                <span class="cert-issuer" data-i18n="cred.1.issuer">Universitas Amikom Yogyakarta</span>
+                <span class="cert-date" data-i18n="cred.1.date">Dec 2022</span>
+              </span>
+            </button>
+
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/ccna-intro.jpg" alt="CCNAv7 Introduction to Networks certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeTraining">Training</span>
+                <span class="cert-name" data-i18n="cred.2.name">CCNAv7: Introduction to Networks</span>
+                <span class="cert-issuer" data-i18n="cred.2.issuer">Cisco Networking Academy</span>
+                <span class="cert-date" data-i18n="cred.2.date">Feb 2024</span>
+              </span>
+            </button>
+
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/ccna-switching.jpg" alt="CCNAv7 Switching, Routing, and Wireless Essentials certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeTraining">Training</span>
+                <span class="cert-name" data-i18n="cred.3.name">CCNAv7: Switching, Routing, and Wireless Essentials</span>
+                <span class="cert-issuer" data-i18n="cred.3.issuer">Cisco Networking Academy</span>
+                <span class="cert-date" data-i18n="cred.3.date">Feb 2024</span>
+              </span>
+            </button>
+
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/ccna-enterprise.jpg" alt="CCNAv7 Enterprise Networking, Security, and Automation certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeTraining">Training</span>
+                <span class="cert-name" data-i18n="cred.4.name">CCNAv7: Enterprise Networking, Security, and Automation</span>
+                <span class="cert-issuer" data-i18n="cred.4.issuer">Cisco Networking Academy</span>
+                <span class="cert-date" data-i18n="cred.4.date">Oct 2024</span>
+              </span>
+            </button>
+
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/python-bootcamp.jpg" alt="Complete Python Bootcamp certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeTraining">Training</span>
+                <span class="cert-name" data-i18n="cred.5.name">Complete Python Bootcamp: From Zero to Hero</span>
+                <span class="cert-issuer" data-i18n="cred.5.issuer">Udemy</span>
+                <span class="cert-date" data-i18n="cred.5.date">Aug 2026</span>
+              </span>
+            </button>
+
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/critical-thinking.jpg" alt="Critical Thinking in the AI Era certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeTraining">Training</span>
+                <span class="cert-name" data-i18n="cred.6.name">Critical Thinking in the AI Era</span>
+                <span class="cert-issuer" data-i18n="cred.6.issuer">HP LIFE</span>
+                <span class="cert-date" data-i18n="cred.6.date">Aug 2026</span>
+              </span>
+            </button>
+
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/data-science.jpg" alt="Data Science and Analytics certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeTraining">Training</span>
+                <span class="cert-name" data-i18n="cred.7.name">Data Science &amp; Analytics</span>
+                <span class="cert-issuer" data-i18n="cred.7.issuer">HP LIFE</span>
+                <span class="cert-date" data-i18n="cred.7.date">Aug 2026</span>
+              </span>
+            </button>
+
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/docker.jpg" alt="Docker Super Essential Crash Course certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeTraining">Training</span>
+                <span class="cert-name" data-i18n="cred.8.name">Docker Super Essential Crash Course</span>
+                <span class="cert-issuer" data-i18n="cred.8.issuer">Udemy</span>
+                <span class="cert-date" data-i18n="cred.8.date">Aug 2026</span>
+              </span>
+            </button>
+
+            <button class="cert reveal" type="button">
+              <span class="cert-media"><img src="assets/img/certs/toefl.webp" alt="TOEFL AEPT certificate"></span>
+              <span class="cert-meta">
+                <span class="cert-type" data-i18n="cred.typeCert">Certification</span>
+                <span class="cert-name" data-i18n="cred.9.name">TOEFL (AEPT)</span>
+                <span class="cert-issuer" data-i18n="cred.9.issuer">Universitas Amikom Yogyakarta</span>
+                <span class="cert-date" data-i18n="cred.9.date">Sep 2026</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-main">
+            <h2 class="section-title reveal" data-i18n="contact.title">Let’s talk.</h2>
+            <p class="reveal" data-i18n="contact.lede">
+              Open to AI, data annotation, and machine learning roles. Email me or call.
+            </p>
+            <a class="arrow-link reveal" href="assets/CV_Irvan_Yoga_Pratama.pdf" download>
+              <span data-i18n="contact.cv">Download CV</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="contact-card reveal">
+            <div class="contact-row">
+              <span data-i18n="contact.emailLabel">Email</span>
+              <a href="mailto:irvanoga@gmail.com">irvanoga@gmail.com</a>
+            </div>
+            <div class="contact-row">
+              <span data-i18n="contact.phoneLabel">Phone</span>
+              <a href="tel:+6281578038625">+62 815-7803-8625</a>
+            </div>
+            <div class="contact-row">
+              <span data-i18n="contact.locationLabel">Location</span>
+              <strong data-i18n="contact.locationValue">Tuban, East Java, Indonesia</strong>
+            </div>
+            <a class="contact-btn" href="mailto:irvanoga@gmail.com" data-i18n="contact.cta">Send email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <h2 class="footer-title" data-i18n="footer.title">Applied machine learning, grounded in clean data.</h2>
+        <div class="footer-links">
+          <h3 data-i18n="footer.quick">/Quick links</h3>
+          <ul class="pills">
+            <li><a href="#hero" data-i18n="nav.home">Home</a></li>
+            <li><a href="#bio" data-i18n="nav.about">About</a></li>
+            <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+            <li><a href="#work" data-i18n="nav.work">Work</a></li>
+            <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+            <li><a href="#credentials" data-i18n="nav.certificates">Certificates</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3 data-i18n="footer.contact">/Contact</h3>
+          <a href="mailto:irvanoga@gmail.com">irvanoga@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-giant" aria-hidden="true">IRVAN</div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+      <button class="lightbox-close" type="button" data-i18n="lightbox.close">Close</button>
+      <figure class="lightbox-figure">
+        <img class="lightbox-img" src="assets/img/certs/amicta-2022.webp" alt="">
+        <figcaption class="lightbox-caption"></figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
